@@ -14,7 +14,7 @@ class App extends Component {
     return(
       <div classname ="App">
         <FunctionClick />
-        <ClassClick />
+        /*<ClassClick />
         {/* <Counter /> */}
         {/*<Message />*/}
         {/* < Greet name="Dnyandeo"/> */}
