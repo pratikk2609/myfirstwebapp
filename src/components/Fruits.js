@@ -2,8 +2,15 @@ import React from 'react'
 
 function Fruits() {
     const names = ['Apple', 'Banana', 'Watermelon']
-    const nameList = names.map(name => <h2>{names}</h2>)
-    return <div>{nameList}</div>
+
+    return (
+        <div>
+            <l1>{names[0]},
+                {names[1]},
+                {names[2]}
+            </l1>
+        </div>
+    )
 }
 
 export default Fruits
