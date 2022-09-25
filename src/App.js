@@ -8,15 +8,17 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import Fruits from './components/Fruits';
 
 class App extends Component {
   render(){
     return(
       <div classname ="App">
-        <FunctionClick />
-        /*<ClassClick />
+        <Fruits />
+        {/* <FunctionClick /> */}
+        {/*< ClassClick /> */}
         {/* <Counter /> */}
-        {/*<Message />*/}
+        {/* <Message /> */}
         {/* < Greet name="Dnyandeo"/> */}
         {/* < Greet name="Pravin"/> */}
         {/*< Greet name="Pradeep"/> */}
