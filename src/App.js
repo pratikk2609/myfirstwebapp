@@ -9,13 +9,14 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import Fruits from './components/Fruits';
-import Stylesheets from './components/Stylesheets';
+import Stylesheet from './components/Stylesheet'
 
 class App extends Component {
   render(){
     return(
       <div classname ="App">
-        <Stylesheets />
+        <Stylesheet />
+        
         {/* <Fruits /> */}
         {/* <FunctionClick /> */}
         {/*< ClassClick /> */}
