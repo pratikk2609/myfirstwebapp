@@ -10,13 +10,14 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import Fruits from './components/Fruits';
 import Stylesheet from './components/Stylesheet'
+import Table from './components/Table';
 
 class App extends Component {
   render(){
     return(
       <div classname ="App">
+        <Table />
         <Stylesheet />
-        
         {/* <Fruits /> */}
         {/* <FunctionClick /> */}
         {/*< ClassClick /> */}

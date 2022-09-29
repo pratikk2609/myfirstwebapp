@@ -1,10 +1,10 @@
 import React from 'react'
-import './myStyles.css'
+import primary from './myStyles.css'
 
 function Stylesheet() {
     return (
-        <div>
-            <h1 className='primary'>Stylesheets</h1>
+        <div style={{backgroundColor : 'orange', width : '100px'}}>
+           pratik
         </div>
     )
 }
