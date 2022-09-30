@@ -11,13 +11,15 @@ import ClassClick from './components/ClassClick';
 import Fruits from './components/Fruits';
 import Stylesheet from './components/Stylesheet'
 import Table from './components/Table';
+import RegistrationForm from './components/RegistrationForm'
 
 class App extends Component {
   render(){
     return(
       <div classname ="App">
-        <Table />
-        <Stylesheet />
+        <RegistrationForm />
+        {/* <Table />
+        <Stylesheet /> */}
         {/* <Fruits /> */}
         {/* <FunctionClick /> */}
         {/*< ClassClick /> */}
