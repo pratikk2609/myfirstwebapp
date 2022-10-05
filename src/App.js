@@ -12,17 +12,19 @@ import Fruits from './components/Fruits';
 import Stylesheet from './components/Stylesheet'
 import Table from './components/Table';
 import RegistrationForm from './components/RegistrationForm'
+import EventBind from './components/EventBind';
 
 class App extends Component {
   render(){
     return(
       <div classname ="App">
-        <RegistrationForm />
+        <EventBind />
+        {/* <RegistrationForm /> */}
         {/* <Table />
         <Stylesheet /> */}
         {/* <Fruits /> */}
         {/* <FunctionClick /> */}
-        {/*< ClassClick /> */}
+        {/* < ClassClick /> */}
         {/* <Counter /> */}
         {/* <Message /> */}
         {/* < Greet name="Dnyandeo"/> */}
